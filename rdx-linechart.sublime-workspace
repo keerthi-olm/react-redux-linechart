@@ -1,0 +1,629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"props"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"pop",
+				"propTypes"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"P",
+				"PropTypes"
+			],
+			[
+				"nee",
+				"needleConf"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/charts/LineChart.jsx",
+			"settings":
+			{
+				"buffer_size": 8049,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "var parse = d3.timeParse(\"%s\");\nvar time = parse(1509392160);\n\nconsole.log(time);\n\nvar format = d3.timeFormat(\"%s\");\ntime = format(Date.now());\n\nconsole.log(time);",
+			"settings":
+			{
+				"buffer_size": 163,
+				"line_ending": "Windows",
+				"name": "var parse = d3.timeParse(\"%s\");"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: reacthelplifecycle"
+			],
+			[
+				"file",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Package Control: sati",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"",
+				"View: Toggle Tabs"
+			],
+			[
+				"sid",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instALL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/dev-work/aa-workspaces-sublime/Current-dial-chart.sublime-project",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/style.css",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/App.test.js",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/charts/BarChart.jsx",
+		"/C/dev-work/export-repos/react-d3-current-18062018/public/index.html",
+		"/C/Users/keerthi/Pictures/svgs/svg-scaling-example.svg",
+		"/C/Users/keerthi/Pictures/svgs/testRaw.svg",
+		"/C/dev-work/export-repos/react-d3-current-18062018/build/stylex.css",
+		"/C/dev-work/export-repos/react-d3-current-18062018/public/stylex.css",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/index.css",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/index.js",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/app2.jsx",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/stylepp.css",
+		"/C/dev-work/export-repos/react-d3-current-18062018/src/App.css",
+		"/C/Temp/react-d3-current-28-01-2018/src/charts/basicBarChart.jsx",
+		"/C/Temp/react-d3-current-28-01-2018/src/charts/BarChart.jsx",
+		"/C/Users/keerthi/Pictures/svgs/coinsRaw.svg",
+		"/C/Users/keerthi/Pictures/svgs/coins-basic-bottom.svg",
+		"/C/Users/keerthi/Pictures/svgs/coins-basic.svg",
+		"/C/Users/keerthi/Pictures/svgs/coins-basic-plain.svg",
+		"/C/Users/keerthi/Pictures/svgs/coins-basic-plain2.svg",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/reactapp.sublime.snippet",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/svgdraw.sublime-snippet",
+		"/C/Temp/react-d3-current-28-01-2018/build/index.html",
+		"/C/Temp/react-d3-current-28-01-2018/build/static/js/main.57662995.js",
+		"/C/Temp/react-d3-current-28-01-2018/src/charts/pieBasic.jsx",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/reactproptypes.sublime-snippet",
+		"/C/Temp/react-d3-current-28-01-2018/src/charts/DialChart.jsx",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/reacthooks.sublime-snippet",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/jasonpaers.sublime-snippet",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/reacthelplifecycle.sublime-snippet",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/reactapp.sublime-snippet",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/User/helllo.sublime.snippet",
+		"/C/Temp/react-d3-current-28-01-2018/package.json",
+		"/C/Temp/react-d3-current-28-01-2018/src/charts/gaug.jsx",
+		"/C/Temp/react-d3-current-28-01-2018/src/charts/resource/dail-chart-sample.js",
+		"/C/Users/keerthi/AppData/Roaming/Sublime Text 2/Packages/Glue/messages/help.txt",
+		"/C/dev-work/d3-react-es6/d3es6/src/style.css",
+		"/C/dev-work/react-d3-linechart/build/bundle.js",
+		"/C/dev-work/d3-react-charts/lib/charts/LineChart.jsx",
+		"/C/wamp/www/d3-react/lib/charts/LineChart.jsx",
+		"/C/dev-work/d3-react-es6/d3es6/package.json",
+		"/C/dev-work/react-d3-linechart/app/css/style.css",
+		"/C/dev-work/react-d3-linechart/app/index.html",
+		"/C/dev-work/react-d3-linechart/app/components/charts/LineChart.jsx",
+		"/C/wamp/www/d3-react/index.html",
+		"/C/dev-work/d3-react-es6/d3es6/src/index.css",
+		"/C/dev-work/d3-react-es6/d3es6/public/index.html",
+		"/C/dev-work/react-d3-linechart/app/main.css",
+		"/C/dev-work/d3-react-es6/d3es6/src/index.js",
+		"/C/dev-work/react-d3-linechart/app/main.jsx",
+		"/C/dev-work/d3-react-es6/d3es6/src/app-test.jsx",
+		"/C/dev-work/react-d3-linechart/app/components/charts/DonutChart.jsx",
+		"/C/dev-work/react-d3-linechart/app/components/app-new.jsx",
+		"/C/dev-work/d3-react-es6/d3es6/src/charts/LineChart.jsx",
+		"/C/wamp/www/d3-react/lib/app.jsx",
+		"/C/wamp/www/d3-react/lib/app2.jsx",
+		"/C/dev-work/react-d3-linechart/app/components/App.jsx",
+		"/C/dev-work/d3-react-charts/lib/app.jsx",
+		"/C/dev-work/d3-react-es6/d3es6/src/app2.jsx",
+		"/C/dev-work/d3-react-charts/js/react-dom-0.14.7.js",
+		"/C/dev-work/d3-react-es6/d3es6/node_modules/react-scripts/config/webpack.config.dev.js",
+		"/C/dev-work/d3-react-es6/d3es6/node_modules/react-scripts/config/webpack.config.prod.js",
+		"/C/Temp/react-webpack-babel-master/webpack.config.js",
+		"/C/Users/keerthi/AppData/Local/Temp/LineChart.jsx",
+		"/C/Temp/select.html",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/dev-work/react-d3-linechart/package.json",
+		"/C/dev-work/react-d3-linechart/build/index.html",
+		"/C/dev-work/react-d3-linechart/webpack.config.js",
+		"/C/dev-work/react-d3-linechart/webpack.production.config.js",
+		"/C/Temp/react-hello-world/app/index.js",
+		"/C/dev-work/webpack-d3/package.json",
+		"/C/dev-work/react-d3-linechart/app/components/app2.jsx",
+		"/C/Temp/react-webpack-babel-master/README.md",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/webpack.config.js",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/package.json",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/build/index.html",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/app/index.html",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/app/ch/chart.jsx",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/app/d3_circle.js",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/app/main.js",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/README.md",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/webpack.production.config.js",
+		"/C/Temp/react-d3-starter-master/line-chart/app/index.html",
+		"/C/wamp/www/d3-react/lib/charts/utils/ReactMixins.js",
+		"/C/wamp/www/test/bundle.js",
+		"/C/wamp/www/test/index.html",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/node_modules/webpack/bin/config-optimist.js",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/node_modules/webpack/package.json",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/node_modules/webpack/bin/webpack.js",
+		"/C/Temp/react-d3-starter-master/react-d3-starter-master/build/bundle.js",
+		"/C/Temp/react-hello-world/package.json",
+		"/C/Temp/react-hello-world/webpack.config.js",
+		"/C/Temp/minimal-react-webpack-babel-setup-master/package.json",
+		"/C/Temp/minimal-react-webpack-babel-setup-master/README.md",
+		"/C/Temp/minimal-react-webpack-babel-setup-master/dist/index.html",
+		"/C/Temp/minimal-react-webpack-babel-setup-master/src/index.js",
+		"/C/wamp/www/d3-react/lib/charts/BarChart.jsx",
+		"/C/wamp/www/d3-react/lib/charts/DonutChart.jsx",
+		"/C/dev-work/webpack-d3/webpack.config.js",
+		"/C/wamp/www/d3-react/lib/charts/ProgressChart.jsx",
+		"/C/Temp/minimal-react-webpack-babel-setup-master/node_modules/webpack/bin/webpack.js",
+		"/C/Users/keerthi/Downloads/timeline/timeline/beds.js",
+		"/C/Users/keerthi/Downloads/timeline/timeline/timeline.js",
+		"/C/dev-work/mlife-timeline-schedular/timeline.js",
+		"/C/dev-work/mlife-timeline-schedular/css/themes.css",
+		"/C/dev-work/mlife-timeline-schedular/index.htm",
+		"/C/dev-work/mlife-timeline-schedular/css/styles.css",
+		"/C/wamp/www/bus-arrivals/index.html",
+		"/C/dev-work/timline-chronology/Framer/Project/index.html",
+		"/C/dev-work/timline-chronology/Framer/Project/app.js",
+		"/C/wamp/www/bus-arrivals/businfo.php",
+		"/F/adass-launchpad/adass-launchpad-kids.html",
+		"/C/Users/keerthi/Desktop/adass-launchpad/adass-launchpad-elderly.html",
+		"/C/Users/keerthi/Desktop/salesview/adass-launchpad-kids.html",
+		"/F/salesview/adass-launchpad-elderly.html",
+		"/F/salesview/img/Logo.png",
+		"/C/dev-work/themml/index.html",
+		"/C/dev-work/themml/index-new-skeleton.html",
+		"/C/dev-work/themml/index-new-keerthi.html",
+		"/C/dev-work/themml/style-kv.css",
+		"/C/Temp/bus-arrivals-master/index.html",
+		"/C/Users/keerthi/Downloads/timeline/timeline/index.htm",
+		"/C/Users/keerthi/Downloads/timeline/timeline/cards.css",
+		"/C/Users/keerthi/Downloads/timeline/timeline/styles.css",
+		"/C/wamp/www/ng/temp/temp.js"
+	],
+	"find":
+	{
+		"height": 119.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\dev-work\\d3-react-es6\\d3es6,C:\\dev-work\\react-d3-linechart",
+			"C:\\dev-work\\d3-react-es6\\d3es6",
+			"C:\\Users\\keerthi\\Documents\\GitHub\\PetDemoAng"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ReactDOM",
+			"556",
+			"50",
+			"LineChart",
+			"data",
+			".state",
+			"tooltip",
+			"heightFn",
+			"widthFn",
+			"SingleBarChart",
+			"hover",
+			"red",
+			"css",
+			"axis",
+			"Axis",
+			"domain",
+			"y-grid",
+			"stroke",
+			"classN",
+			"test",
+			"viewb",
+			"xsca",
+			"bar",
+			"slice",
+			"use",
+			"clip",
+			"defs",
+			"M",
+			" yScale",
+			"313",
+			"316",
+			"image",
+			"aspe",
+			"rati",
+			"select",
+			"clip",
+			"bar=d3.select(this.refs.bar).data([this.props.value])",
+			"xlinkHref",
+			"//",
+			"clip",
+			"mask",
+			"style",
+			"interval",
+			"color",
+			"fill",
+			"rem",
+			"colorScale",
+			"fill",
+			"key",
+			"remov",
+			"delete",
+			"state",
+			"chartStyle",
+			"ran",
+			"SingleBarChart",
+			"ordi",
+			"scale",
+			"var",
+			"colorScale",
+			"PieBasiclChart",
+			"color",
+			"schemeCategory10",
+			"value",
+			"needl",
+			"didmou",
+			"did mou",
+			"150",
+			"width",
+			"pointerConf",
+			"pointerTailLength",
+			"pointerHeadLength",
+			"pointerWidth",
+			".curve",
+			"scale",
+			"`",
+			"deg2rad",
+			"range",
+			"newang",
+			"linear",
+			"scale",
+			"dom",
+			"newAngle ",
+			"centerTranslation",
+			"centerTx",
+			"pointerHeadLength",
+			"Grid",
+			"yGrid",
+			"axis",
+			"grid",
+			"append",
+			"linedata",
+			"d3Line",
+			"center",
+			"dom",
+			" scale",
+			" scale(",
+			"minAngle",
+			"pointerWidth",
+			"pointer",
+			"time",
+			"renderGauge",
+			"powerGauge",
+			".pointer",
+			"_d3_refs.pointer",
+			"d3pie",
+			"colorScale",
+			".scale",
+			"tickData",
+			"start",
+			"contain",
+			"this.props.",
+			"config.",
+			"this.pro",
+			"thi.pro",
+			"config",
+			"tickdata",
+			"scale",
+			"config.",
+			"layout",
+			"pie",
+			"layout",
+			"layout.pie",
+			"context",
+			"colors",
+			"reactdom",
+			"react",
+			"dom.",
+			"layout."
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"data2",
+			"DemoBarChart",
+			"",
+			"SingleArc",
+			"needleConf",
+			"needleTailLength",
+			"needleHeadLength",
+			"needleWidth",
+			"props.",
+			"this.props.",
+			"this.props",
+			"DialChart",
+			"===",
+			"PropTypes",
+			"line",
+			"axisBottom",
+			"scaleLinear",
+			"scaleTime",
+			"timeScale",
+			"timeFormat",
+			"\"",
+			"",
+			" .list-centered > a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/App.js",
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/charts/LineChart.jsx",
+					"settings":
+					{
+						"buffer_size": 8049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var parse = d3.timeParse(\"%s\");",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.451461988303,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.743306169965,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true
+}
