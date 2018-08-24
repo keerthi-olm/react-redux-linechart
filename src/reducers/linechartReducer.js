@@ -1,10 +1,11 @@
 import { FETCH_POSTS, NEW_POST } from '../actions/types';
-
+import {chartDefaults} from '../charts/chartDefaults';
 //1]add new  states here and initialise. ie detail:{test:'a'}
+// Intial state can be put higher up--- needs research
 const initialState = {
   items: [],
   item: {},
-  detail:{}
+  chartDefaults:{chartDefaults}
 
 };
 

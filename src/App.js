@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {Provider} from 'react-redux';
+import store from './store'; 
+
 // import ReactDOM from 'react-dom';
 import LineChart from './charts/LineChart'
 
@@ -12,8 +15,9 @@ class App extends Component {
             <div className="pure-g container">
                <div className="pure-u-1">
                 <div className="bottom-right-svg">
-
+                   <Provider store={store}>
                     <LineChart/>
+                   </Provider> 
 
                      
                 </div>
