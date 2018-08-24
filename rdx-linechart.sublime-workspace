@@ -64,12 +64,18 @@
 			}
 		},
 		{
-			"contents": "var parse = d3.timeParse(\"%s\");\nvar time = parse(1509392160);\n\nconsole.log(time);\n\nvar format = d3.timeFormat(\"%s\");\ntime = format(Date.now());\n\nconsole.log(time);",
 			"settings":
 			{
-				"buffer_size": 163,
-				"line_ending": "Windows",
-				"name": "var parse = d3.timeParse(\"%s\");"
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/store.js",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -445,7 +451,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -499,7 +505,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4092.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -507,27 +513,53 @@
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 2,
 					"settings":
 					{
-						"buffer_size": 163,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								163,
-								163
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "var parse = d3.timeParse(\"%s\");",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/store.js",
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -588,13 +620,13 @@
 		"cols":
 		[
 			0.0,
-			0.940339227883,
+			0.569024486847,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.815483119907,
+			0.760768335274,
 			1.0
 		]
 	},
