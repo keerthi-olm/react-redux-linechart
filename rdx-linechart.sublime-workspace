@@ -51,7 +51,7 @@
 			"file": "src/App.js",
 			"settings":
 			{
-				"buffer_size": 521,
+				"buffer_size": 547,
 				"line_ending": "Unix"
 			}
 		},
@@ -453,15 +453,15 @@
 					"file": "src/App.js",
 					"settings":
 					{
-						"buffer_size": 521,
+						"buffer_size": 547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								159,
+								159
 							]
 						],
 						"settings":
@@ -488,8 +488,8 @@
 						"selection":
 						[
 							[
-								63,
-								30
+								5936,
+								5936
 							]
 						],
 						"settings":
@@ -499,7 +499,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4092.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -588,13 +588,13 @@
 		"cols":
 		[
 			0.0,
-			0.451461988303,
+			0.940339227883,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.743306169965,
+			0.815483119907,
 			1.0
 		]
 	},
@@ -617,6 +617,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/C/dev-work/redux-example/src/redux-boiler-example.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
