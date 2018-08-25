@@ -1,31 +1,42 @@
 import { FETCH_POSTS, NEW_POST } from '../actions/types';
-import {chartDefaults} from '../charts/chartDefaults';
+import {chartDefaults,toolTip} from '../charts/chartDefaults';
 //1]add new  states here and initialise. ie detail:{test:'a'}
 // Intial state can be put higher up--- needs research
+
+
+
 const initialState = {
-  items: [],
-  item: {},
-  chartDefaults:{chartDefaults}
+  toolTip: {...toolTip},
+  linechartDefaults:{...chartDefaults}
 
 };
-
-export default function(state = initialState, action) {
+console.log(initialState.linechartDefaults);
+export function linechartReducer(state = initialState.linechartDefaults, action) {
   switch (action.type) {
     case FETCH_POSTS:
       return {
         ...state,
         items: action.payload
       };
-    case NEW_POST:
+
+    default:
+      return state;
+  }
+}
+
+export function tooTipReducer(state = initialState.toolTip, action) {
+  switch (action.type) {
+    case 'showTip':
       return {
         ...state,
-        item: action.payload
+        items: action.payload
       };
-      case "GET_DETAIL":
+    case 'hideTip':
       return {
         ...state,
-        detail: action.payload
+        items: action.payload
       };
+
     default:
       return state;
   }

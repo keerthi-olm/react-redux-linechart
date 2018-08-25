@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
-import linechartReducer from './linechartReducer';
+import {linechartReducer,tooTipReducer} from './linechartReducer';
 
 export default combineReducers({
-  linechart: linechartReducer
+  linechart: linechartReducer,
+  toolTip: tooTipReducer
 });

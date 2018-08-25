@@ -2,6 +2,9 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
+import { showtip,hidetip} from '../actions/linechartActions'; // This is used in the connect statement at the bottom.
+
 import * as d3 from "d3";
 import {Axis,Grid} from '../charts/ChartTools'
 
@@ -10,7 +13,7 @@ import {Axis,Grid} from '../charts/ChartTools'
 
 class ToolTip extends React.Component{ 
     static propTypes = {
-        tooltip:PropTypes.object
+        toolTip:PropTypes.object
     }
     render (){
 
@@ -22,8 +25,8 @@ class ToolTip extends React.Component{
         var transformText='translate('+width/2+','+(height/2-5)+')';
         var transformArrow="";
 
-        if(this.props.tooltip.display===true){
-            var position = this.props.tooltip.pos;
+        if(this.props.toolTip.display===true){
+            var position = this.props.toolTip.pos;
 
             x= position.x;
             y= position.y;
@@ -51,8 +54,8 @@ class ToolTip extends React.Component{
                 <polygon className="shadow"  points="10,0  30,0  20,10" transform={transformArrow}
                          fill="#6391da" opacity=".9" visibility={visibility}/>
                 <text  visibility={visibility} transform={transformText}>
-                    <tspan  x="0" textAnchor="middle" fontSize="15px" fill="#ffffff">{this.props.tooltip.dataTip.key}</tspan>
-                    <tspan  x="0" textAnchor="middle" dy="25" fontSize="20px" fill="#a9f3ff">{this.props.tooltip.dataTip.value+" visits"}</tspan>
+                    <tspan  x="0" textAnchor="middle" fontSize="15px" fill="#ffffff">{this.props.toolTip.dataTip.key}</tspan>
+                    <tspan  x="0" textAnchor="middle" dy="25" fontSize="20px" fill="#a9f3ff">{this.props.toolTip.dataTip.value+" visits"}</tspan>
                 </text>
             </g>
         );
@@ -96,7 +99,7 @@ export class LineChart extends React.Component {
     super(props, context);
 
     this.state = {
-            tooltip:{ display:false,dataTip:{key:'',value:''}},
+            toolTip:{ display:false,dataTip:{key:'',value:''}},
             width:800
     };
     
@@ -197,7 +200,7 @@ export class LineChart extends React.Component {
                         <Axis h={h} axis={xAxis} axisType="x"/>
                         <path className="line shadow" d={line(data)} strokeLinecap="round"/>
                         <Dots data={this.props.data} x={x} y={y} showToolTip={this.showToolTip} hideToolTip={this.hideToolTip}/>
-                        <ToolTip tooltip={this.state.tooltip}/>
+                        <ToolTip toolTip={this.state.toolTip}/>
 
                     </g>
 
@@ -209,7 +212,7 @@ export class LineChart extends React.Component {
     showToolTip = (e) =>{
 
         e.target.setAttribute('fill', '#FFFFFF');
-        this.setState({tooltip:{
+        this.setState({toolTip:{
             display:true,
             dataTip: {
                 key:e.target.getAttribute('data-key'),
@@ -222,10 +225,26 @@ export class LineChart extends React.Component {
 
             }
         });
+
+           var payload={
+            toolTip:{
+                display:true,
+                dataTip: {
+                    key:e.target.getAttribute('data-key'),
+                    value:e.target.getAttribute('data-value')
+                    },
+                pos:{
+                    x:e.target.getAttribute('cx'),
+                    y:e.target.getAttribute('cy')
+                }
+
+                }
+        };
     }
     hideToolTip = (e) =>{
         e.target.setAttribute('fill', '#7dc7f4');
-        this.setState({tooltip:{ display:false,dataTip:{key:'',value:''}}});
+        this.setState({toolTip:{ display:false,dataTip:{key:'',value:''}}});
+        var payload= {toolTip:{ display:false,dataTip:{key:'',value:''}}};
     }
 
 
@@ -236,12 +255,13 @@ export class LineChart extends React.Component {
         chartId:PropTypes.string,
         margin:PropTypes.object,
         data:PropTypes.array,
-        data2:PropTypes.array
+        data2:PropTypes.array,
+        toolTip:PropTypes.object,
     }
     
 
 const mapStateToProps = state => ({
-  ...state.chartDefaults
+ ...state.linechart,toolTip:state.toolTip
   
 });    
 

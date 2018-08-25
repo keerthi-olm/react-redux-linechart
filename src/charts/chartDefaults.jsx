@@ -16,3 +16,18 @@ export const chartDefaults = {
         ]
      
     }
+
+  export const  toolTip = {
+            visibility:'hidden',
+            display:false,
+            dataTip: {
+                key:'',
+                value:''
+                },
+            pos:{
+                x:0,
+                y:0
+            },
+            width:150,
+            height:70
+            }
