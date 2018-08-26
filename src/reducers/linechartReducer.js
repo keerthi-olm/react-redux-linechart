@@ -29,12 +29,12 @@ export function tooTipReducer(state = initialState.toolTip, action) {
     case 'showTip':
       return {
         ...state,
-        items: action.payload
+        toolTip: action.payload
       };
     case 'hideTip':
       return {
         ...state,
-        items: action.payload
+        toolTip: action.payload
       };
 
     default:

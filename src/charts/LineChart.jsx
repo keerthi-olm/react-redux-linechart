@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 import { showtip,hidetip} from '../actions/linechartActions'; // This is used in the connect statement at the bottom.
-
+import {linechartReducer,tooTipReducer} from '../reducers/linechartReducer'
 import * as d3 from "d3";
 import {Axis,Grid} from '../charts/ChartTools'
 
@@ -265,4 +265,4 @@ const mapStateToProps = state => ({
   
 });    
 
-export default connect(mapStateToProps)(LineChart);
+export default connect(mapStateToProps,{linechartReducer,tooTipReducer})(LineChart);

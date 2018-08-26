@@ -1,17 +1,17 @@
 
-export function showtip(detail) {
+export function showtip(toolTip) {
 
     return {
         type: 'SHOW_TOOLTIP',
-        payload:detail
+        payload:toolTip
     };
 
 }
-export function hidetip(detail) {
+export function hidetip(toolTip) {
 
     return {
         type: 'HIDE_TOOLTIP',
-        payload:detail
+        payload:toolTip
     };
 
 }
