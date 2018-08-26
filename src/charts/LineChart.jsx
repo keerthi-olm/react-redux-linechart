@@ -3,8 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { showtip,hidetip} from '../actions/linechartActions'; // This is used in the connect statement at the bottom.
-import {linechartReducer,tooTipReducer} from '../reducers/linechartReducer'
+import { showtip,hidetip} from '../actions/linechartActions'; 
 import * as d3 from "d3";
 import {Axis,Grid} from '../charts/ChartTools'
 
@@ -200,7 +199,7 @@ export class LineChart extends React.Component {
                         <Axis h={h} axis={xAxis} axisType="x"/>
                         <path className="line shadow" d={line(data)} strokeLinecap="round"/>
                         <Dots data={this.props.data} x={x} y={y} showToolTip={this.showToolTip} hideToolTip={this.hideToolTip}/>
-                        <ToolTip toolTip={this.state.toolTip}/>
+                        <ToolTip toolTip={this.props.toolTip}/>
 
                     </g>
 
@@ -227,7 +226,7 @@ export class LineChart extends React.Component {
         });
 
            var payload={
-            toolTip:{
+           
                 display:true,
                 dataTip: {
                     key:e.target.getAttribute('data-key'),
@@ -238,14 +237,24 @@ export class LineChart extends React.Component {
                     y:e.target.getAttribute('cy')
                 }
 
-                }
+                
         };
+        this.props.showtip(payload);
     }
     hideToolTip = (e) =>{
         e.target.setAttribute('fill', '#7dc7f4');
-        this.setState({toolTip:{ display:false,dataTip:{key:'',value:''}}});
-        var payload= {toolTip:{ display:false,dataTip:{key:'',value:''}}};
+            this.setState({toolTip:{ display:false,dataTip:{key:'',value:''}}});
+        var payload= { 
+                        display:false,
+                        dataTip:{key:'',value:''}
+                    };
+
+        this.props.hidetip(payload);
+
     }
+
+
+
 
 
 };
@@ -265,4 +274,4 @@ const mapStateToProps = state => ({
   
 });    
 
-export default connect(mapStateToProps,{linechartReducer,tooTipReducer})(LineChart);
+export default connect(mapStateToProps,{showtip,hidetip})(LineChart);

@@ -3,15 +3,13 @@ import {chartDefaults,toolTip} from '../charts/chartDefaults';
 //1]add new  states here and initialise. ie detail:{test:'a'}
 // Intial state can be put higher up--- needs research
 
-
-
 const initialState = {
   toolTip: {...toolTip},
   linechartDefaults:{...chartDefaults}
 
 };
-console.log(initialState.linechartDefaults);
-export function linechartReducer(state = initialState.linechartDefaults, action) {
+
+export function linechart(state = initialState.linechartDefaults, action) {
   switch (action.type) {
     case FETCH_POSTS:
       return {
@@ -24,17 +22,16 @@ export function linechartReducer(state = initialState.linechartDefaults, action)
   }
 }
 
-export function tooTipReducer(state = initialState.toolTip, action) {
+export function Tip(state = initialState.toolTip, action) {
   switch (action.type) {
-    case 'showTip':
+    case 'SHOW_TOOLTIP': 
       return {
-        ...state,
-        toolTip: action.payload
+        
+        ...action.payload
       };
-    case 'hideTip':
+    case 'HIDE_TOOLTIP': 
       return {
-        ...state,
-        toolTip: action.payload
+        ...action.payload
       };
 
     default:
