@@ -2,7 +2,7 @@ export const chartDefaults = {
     
         width: 2000,
         height: 300,
-        chartId: 'v1_chart',
+        chartId: 'linechart-redux',
         margin:{top: 5, right: 50, bottom: 20, left: 50},
         data: [
             {day:'02-11-2016',count:80},

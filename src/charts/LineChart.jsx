@@ -211,19 +211,7 @@ export class LineChart extends React.Component {
     showToolTip = (e) =>{
 
         e.target.setAttribute('fill', '#FFFFFF');
-        this.setState({toolTip:{
-            display:true,
-            dataTip: {
-                key:e.target.getAttribute('data-key'),
-                value:e.target.getAttribute('data-value')
-                },
-            pos:{
-                x:e.target.getAttribute('cx'),
-                y:e.target.getAttribute('cy')
-            }
 
-            }
-        });
 
            var payload={
            
@@ -243,7 +231,7 @@ export class LineChart extends React.Component {
     }
     hideToolTip = (e) =>{
         e.target.setAttribute('fill', '#7dc7f4');
-            this.setState({toolTip:{ display:false,dataTip:{key:'',value:''}}});
+
         var payload= { 
                         display:false,
                         dataTip:{key:'',value:''}
