@@ -1,11 +1,11 @@
 import { FETCH_POSTS, NEW_POST } from '../actions/types';
-import {chartDefaults,toolTip} from '../charts/chartDefaults';
+import {chartDefaults,toolTip,rainFallData} from '../charts/chartDefaults';
 //1]add new  states here and initialise. ie detail:{test:'a'}
 // Intial state can be put higher up--- needs research
 
 const initialState = {
   toolTip: {...toolTip},
-  linechartDefaults:{...chartDefaults}
+  linechartDefaults:{...chartDefaults,data:[...rainFallData.data]}
 
 };
 
