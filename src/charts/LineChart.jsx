@@ -3,10 +3,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { showtip,hidetip} from '../actions/linechartActions'; 
+import { showtip,hidetip,getMapData} from '../actions/linechartActions'; 
 import * as d3 from "d3";
-import {Axis,Grid} from '../charts/ChartTools'
-
+import {Axis,Grid} from '../charts/ChartTools';
+import {mapSvg} from '../charts/resource/mapSvg';
+import {rainFallData} from '../charts/chartDefaults';
 // http://www.adeveloperdiary.com/react-js/integrate-react-and-d3/
 
 
@@ -188,7 +189,7 @@ export class LineChart extends React.Component {
         var transform='translate(' + margin.left + ',' + margin.top + ')';
 
         return (
-            <div>
+            <div> {mapSvg(this.mapCick)}
                 <svg id={this.props.chartId} width={this.state.width} height={this.props.height}>
 
                     <g transform={transform}>
@@ -241,7 +242,12 @@ export class LineChart extends React.Component {
 
     }
 
+mapCick = (e) => {
 
+    console.log(rainFallData[e.target.id]);
+    var payload = rainFallData[e.target.id];
+    this.props.getMapData(payload);
+}
 
 
 
@@ -262,4 +268,4 @@ const mapStateToProps = state => ({
   
 });    
 
-export default connect(mapStateToProps,{showtip,hidetip})(LineChart);
+export default connect(mapStateToProps,{showtip,hidetip,getMapData})(LineChart);

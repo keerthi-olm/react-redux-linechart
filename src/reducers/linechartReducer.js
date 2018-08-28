@@ -5,16 +5,16 @@ import {chartDefaults,toolTip,rainFallData} from '../charts/chartDefaults';
 
 const initialState = {
   toolTip: {...toolTip},
-  linechartDefaults:{...chartDefaults,data:[...rainFallData.data]}
+  linechartDefaults:{...chartDefaults,data:[...rainFallData.england]}
 
 };
 
 export function linechart(state = initialState.linechartDefaults, action) {
   switch (action.type) {
-    case FETCH_POSTS:
+    case 'GET_MAPDATA':
       return {
         ...state,
-        items: action.payload
+        data: action.payload
       };
 
     default:
