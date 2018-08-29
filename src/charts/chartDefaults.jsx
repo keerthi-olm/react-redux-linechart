@@ -1,6 +1,6 @@
 export const chartDefaults = {
     
-        width: 2000,
+        width: 800,
         height: 300,
         chartId: 'linechart-redux',
         margin:{top: 5, right: 50, bottom: 20, left: 50},

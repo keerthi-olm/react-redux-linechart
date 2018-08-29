@@ -1,14 +1,11 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-
 import { showtip,hidetip,getMapData} from '../actions/linechartActions'; 
 import * as d3 from "d3";
 import {Axis,Grid} from '../charts/ChartTools';
 import {mapSvg} from '../charts/resource/mapSvg';
 import {rainFallData} from '../charts/chartDefaults';
-// http://www.adeveloperdiary.com/react-js/integrate-react-and-d3/
 
 
 class ToolTip extends React.Component{ 
@@ -104,20 +101,12 @@ export class LineChart extends React.Component {
     };
     
   };
-    // mixins=[resizeMixin];
-
+    
+    componentDidMount() {
+        // window.addEventListener('resize', this.resize);
+    }
     render (){
         var {margin,data}= this.props;
-
-        //TODO Move data to proptypes. Issue with line chart disappear. Reorganise to accomdate rreact lifecycle on state change
-            // var data= [{"day":'02-11-2016',"count":180},
-            // {"day":'02-12-2016',"count":250},
-            // {"day":'02-13-2016',"count":150},
-            // {"day":'02-14-2016',"count":496},
-            // {"day":'02-15-2016',"count":140},
-            // {"day":'02-16-2016',"count":380},
-            // {"day":'02-17-2016',"count":100},
-            // {"day":'02-18-2016',"count":150}]
         
 
         var w = this.state.width - (margin.left + margin.right),
@@ -189,8 +178,9 @@ export class LineChart extends React.Component {
         var transform='translate(' + margin.left + ',' + margin.top + ')';
 
         return (
-            <div> {mapSvg(this.mapCick)}
-                <svg id={this.props.chartId} width={this.state.width} height={this.props.height}>
+            <div className='row' > {mapSvg(this.mapCick)}
+                   <svg  className='col2' id={this.props.chartId}  height='100%'  width='100%'  viewBox="0 0 800 300"
+  preserveAspectRatio="xMidYMid meet">
 
                     <g transform={transform}>
 
@@ -242,14 +232,24 @@ export class LineChart extends React.Component {
 
     }
 
-mapCick = (e) => {
+    mapCick = (e) => {
+      //rainFallData is imported in ie  import {rainFallData} from '../charts/chartDefaults';
+        var payload = rainFallData[e.target.id];
+        this.props.getMapData(payload);
+    }
 
-    console.log(rainFallData[e.target.id]);
-    var payload = rainFallData[e.target.id];
-    this.props.getMapData(payload);
-}
-
-
+      // resize = (e) =>{
+      //   const container = this.state.container;
+      //   let chartWidth = getChartSize(container)[0];
+      //   let chartHeight = getChartSize(container)[1];
+        
+      // var payload= { 
+      //     width: chartWidth,
+      //     height: chartHeight
+      //   };
+      //    // this.props.resize(payload);
+  
+      // }
 
 };
     LineChart.propTypes = {

@@ -15,3 +15,20 @@ export function hidetip(toolTip) {
     };
 
 }
+export function getMapData(payload) {
+
+    return {
+        type: 'GET_MAPDATA',
+        payload:payload
+    };
+
+}
+
+export function resize(payload) {
+
+    return {
+        type: 'RESIZE',
+        payload:payload
+    };
+
+}

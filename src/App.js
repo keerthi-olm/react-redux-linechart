@@ -11,19 +11,12 @@ import './style.css';
 class App extends Component {
   render() {
     return (
-       <div>
-            <div className="pure-g container">
-               <div className="pure-u-1">
-                <div className="bottom-right-svg">
+
                    <Provider store={store}>
-                    <LineChart/>
+                     <LineChart/>
                    </Provider> 
 
-                     
-                </div>
-            </div>
-            </div>
-            </div>
+ 
     );
   }
 }
