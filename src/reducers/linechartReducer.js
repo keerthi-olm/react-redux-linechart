@@ -16,6 +16,12 @@ export function linechart(state = initialState.linechartDefaults, action) {
         ...state,
         data: action.payload
       };
+     case 'RESIZE':
+      return {
+        ...state,
+        width: action.payload.width,
+        height: action.payload.height
+      };     
 
     default:
       return state;

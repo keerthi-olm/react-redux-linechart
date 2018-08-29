@@ -1,9 +1,11 @@
 import React from 'react';
 export const mapSvg = (mapClick)=><svg 
-   
+   class='col1'
    version="1.1"
-   width="284.45453"
+   viewBox="0 0 300 376.25967"
+  preserveAspectRatio="xMidYMid meet"
    height="376.25967"
+   view
    id="svg3013"><g
      transform="matrix(0.45309017,0,0,0.45309017,-50.857872,-91.702967)"
      id="g3019"><path
