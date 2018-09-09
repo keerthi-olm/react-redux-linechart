@@ -123,11 +123,15 @@ export class LineChart extends React.Component {
                 return d.date;
             }))
             .rangeRound([0, w]);
-
+         
+        // var y = d3.scaleLinear()
+        //     .domain([0,d3.max(data,function(d){
+        //         return d.count+10;
+        //     })])
+        //     .range([h, 0]);
+        // We are using fixed y domain value of 50 for consistancy in height.
         var y = d3.scaleLinear()
-            .domain([0,d3.max(data,function(d){
-                return d.count+100;
-            })])
+            .domain([0,50])
             .range([h, 0]);
 
         var yAxis = d3.axisLeft()
@@ -135,13 +139,15 @@ export class LineChart extends React.Component {
             .ticks(5);
 
         var xAxis = d3.axisBottom()
-            .scale(x)
+            .scale(x).tickFormat(d3.timeFormat("%b"))
             .tickValues(data.map(function(d,i){
                 if(i>0) {
                     return d.date;
                 } return false;
             }).splice(1))
             .ticks(4);
+
+            
 
         // var xGrid = d3.axisBottom()
         //     .scale(x)
@@ -178,7 +184,7 @@ export class LineChart extends React.Component {
         var transform='translate(' + margin.left + ',' + margin.top + ')';
 
         return (
-            <div className='row' > {mapSvg(this.mapCick)}
+            <div className='row redoxLineChart' > {mapSvg(this.mapCick)}
                    <svg  className='col2' id={this.props.chartId}  height='100%'  width='100%'  viewBox="0 0 800 300"
   preserveAspectRatio="xMidYMid meet">
 

@@ -34,6 +34,11 @@ body {
     grid-column: 2 / 4;
     grid-row: 1;
 }
+.col3 {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
 
 
 .a {
@@ -177,7 +182,7 @@ path.body {fill:black;}
 path.hair{fill:black}
 
 /** Map stuff  **/
-#england,#scotland,#ireland,#wales,#northernIreland {
+/*#england,#scotland,#ireland,#wales,#northernIreland {
     fill: #cccccc;
     fill-opacity: 1;
     stroke: #ffffff;
@@ -185,7 +190,22 @@ path.hair{fill:black}
     stroke-opacity: 1;
 
 }
-
+*/
 #england:hover,#scotland:hover,#ireland:hover,#wales:hover,#northernIreland:hover {
-fill-opacity: 0.5;
+fill-opacity: 0.6;
+}
+
+/** Redux line chart and map  **/
+
+.redoxLineChart {
+
+  background-color:black;
+}
+
+
+
+.redoxLineChart #england,.redoxLineChart #wales,.redoxLineChart #scotland,.redoxLineChart #ireland,.redoxLineChart #northernIreland{
+  fill:orange;
+  stroke:orange;
+  stroke-width:0
 }
