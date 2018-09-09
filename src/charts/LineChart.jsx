@@ -97,7 +97,7 @@ export class LineChart extends React.Component {
 
     this.state = {
             toolTip:{ display:false,dataTip:{key:'',value:''}},
-            width:800
+            width:800,
     };
     
   };
@@ -198,9 +198,10 @@ export class LineChart extends React.Component {
                         <Dots data={this.props.data} x={x} y={y} showToolTip={this.showToolTip} hideToolTip={this.hideToolTip}/>
                         <ToolTip toolTip={this.props.toolTip}/>
 
+
                     </g>
 
-                </svg>
+                </svg><p>{this.props.region}</p>
             </div>
         );
     }
@@ -240,7 +241,10 @@ export class LineChart extends React.Component {
 
     mapCick = (e) => {
       //rainFallData is imported in ie  import {rainFallData} from '../charts/chartDefaults';
-        var payload = rainFallData[e.target.id];
+       let target='' ;
+       e.target.id==='northernIreland' ?   target ='Northern Ireland' :   target = e.target.id;
+        var payload = {data:rainFallData[e.target.id],region:target};
+        
         this.props.getMapData(payload);
     }
 
@@ -266,6 +270,7 @@ export class LineChart extends React.Component {
         data:PropTypes.array,
         data2:PropTypes.array,
         toolTip:PropTypes.object,
+        region:PropTypes.string
     }
     
 

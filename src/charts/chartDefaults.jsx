@@ -6,7 +6,8 @@ export const chartDefaults = {
         margin:{top: 5, right: 50, bottom: 20, left: 50},
         data: [
    
-        ]
+        ],
+        region:''
      
     }
 

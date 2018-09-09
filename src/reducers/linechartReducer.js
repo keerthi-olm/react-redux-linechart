@@ -3,18 +3,22 @@ import {chartDefaults,toolTip,rainFallData} from '../charts/chartDefaults';
 //1]add new  states here and initialise. ie detail:{test:'a'}
 // Intial state can be put higher up--- needs research
 
+
+
 const initialState = {
   toolTip: {...toolTip},
-  linechartDefaults:{...chartDefaults,data:[...rainFallData.england]}
+  linechartDefaults:{...chartDefaults,data:[...rainFallData.england],region:'england'}
 
 };
+
+
 
 export function linechart(state = initialState.linechartDefaults, action) {
   switch (action.type) {
     case 'GET_MAPDATA':
       return {
         ...state,
-        data: action.payload
+        data: action.payload.data,region: action.payload.region
       };
      case 'RESIZE':
       return {
