@@ -63,8 +63,16 @@
 			"file": "src/charts/LineChart.jsx",
 			"settings":
 			{
-				"buffer_size": 8210,
+				"buffer_size": 8656,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/App.css",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -93,11 +101,11 @@
 			}
 		},
 		{
-			"file": "src/charts/ChartTools.jsx",
+			"file": "src/index.js",
 			"settings":
 			{
-				"buffer_size": 1392,
-				"line_ending": "Windows"
+				"buffer_size": 254,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -170,7 +178,7 @@
 			"file": "src/charts/chartDefaults.jsx",
 			"settings":
 			{
-				"buffer_size": 2076,
+				"buffer_size": 5386,
 				"line_ending": "Windows"
 			}
 		},
@@ -186,7 +194,15 @@
 			"file": "src/reducers/linechartReducer.js",
 			"settings":
 			{
-				"buffer_size": 1040,
+				"buffer_size": 1096,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rdx-linechart.sublime-project",
+			"settings":
+			{
+				"buffer_size": 97,
 				"line_ending": "Unix"
 			}
 		},
@@ -226,7 +242,7 @@
 			"file": "src/style.css",
 			"settings":
 			{
-				"buffer_size": 2960,
+				"buffer_size": 3285,
 				"line_ending": "Windows"
 			}
 		},
@@ -234,7 +250,15 @@
 			"file": "src/charts/resource/mapSvg.jsx",
 			"settings":
 			{
-				"buffer_size": 112679,
+				"buffer_size": 105658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/keerthi/Pictures/svgs/ukmap.svg",
+			"settings":
+			{
+				"buffer_size": 106798,
 				"line_ending": "Unix"
 			}
 		}
@@ -295,6 +319,7 @@
 	},
 	"file_history":
 	[
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/charts/ChartTools.jsx",
 		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/rdx-linechart.sublime-project",
 		"/C/dev-work/euhost/wp/wp-cron.php",
 		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/App.css",
@@ -421,12 +446,11 @@
 		"/C/dev-work/timline-chronology/Framer/Project/app.js",
 		"/C/wamp/www/bus-arrivals/businfo.php",
 		"/F/adass-launchpad/adass-launchpad-kids.html",
-		"/C/Users/keerthi/Desktop/adass-launchpad/adass-launchpad-elderly.html",
-		"/C/Users/keerthi/Desktop/salesview/adass-launchpad-kids.html"
+		"/C/Users/keerthi/Desktop/adass-launchpad/adass-launchpad-elderly.html"
 	],
 	"find":
 	{
-		"height": 119.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -443,6 +467,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"%",
+			"%M",
+			"%m",
+			"stuff",
+			"england",
+			"card",
+			"ygrid",
+			"grid",
 			"tip",
 			"showtip",
 			"styl",
@@ -562,15 +594,7 @@
 			"pointer",
 			"time",
 			"renderGauge",
-			"powerGauge",
-			".pointer",
-			"_d3_refs.pointer",
-			"d3pie",
-			"colorScale",
-			".scale",
-			"tickData",
-			"start",
-			"contain"
+			"powerGauge"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -647,15 +671,15 @@
 					"file": "src/charts/LineChart.jsx",
 					"settings":
 					{
-						"buffer_size": 8210,
+						"buffer_size": 8656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3800,
-								3755
+								8472,
+								8472
 							]
 						],
 						"settings":
@@ -665,13 +689,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2376.0,
+						"translation.y": 5722.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "src/App.css",
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								145
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 87.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "/C/Temp/wp-style.css",
 					"settings":
 					{
@@ -699,7 +751,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "src/actions/types.js",
 					"settings":
 					{
@@ -725,7 +777,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "/C/dev-work/temp-crap/vue-template (1)/README.md",
 					"settings":
 					{
@@ -751,26 +803,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "src/charts/ChartTools.jsx",
+					"buffer": 6,
+					"file": "src/index.js",
 					"settings":
 					{
-						"buffer_size": 1392,
+						"buffer_size": 254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								515,
-								476
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -785,7 +835,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -810,7 +860,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "src/store.js",
 					"settings":
 					{
@@ -836,7 +886,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/C/dev-work/redux-example/src/App.js",
 					"settings":
 					{
@@ -864,7 +914,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "/C/dev-work/redux-example/src/components/Posts.js",
 					"settings":
 					{
@@ -892,7 +942,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/C/dev-work/redux-example/src/store.js",
 					"settings":
 					{
@@ -918,7 +968,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "/C/dev-work/redux-example/src/reducers/index.js",
 					"settings":
 					{
@@ -944,7 +994,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "/C/dev-work/redux-example/src/reducers/postReducer.js",
 					"settings":
 					{
@@ -972,7 +1022,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "/C/dev-work/redux-example/src/components/details.js",
 					"settings":
 					{
@@ -1000,19 +1050,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "src/charts/chartDefaults.jsx",
 					"settings":
 					{
-						"buffer_size": 2076,
+						"buffer_size": 5386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								322,
-								322
+								3486,
+								3471
 							]
 						],
 						"settings":
@@ -1022,7 +1072,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1540.0,
+						"translation.y": 374.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1030,11 +1080,11 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "src/reducers/index.js",
 					"settings":
 					{
@@ -1060,19 +1110,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "src/reducers/linechartReducer.js",
 					"settings":
 					{
-						"buffer_size": 1040,
+						"buffer_size": 1096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								532,
-								532
+								617,
+								617
 							]
 						],
 						"settings":
@@ -1082,13 +1132,39 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
+					"file": "rdx-linechart.sublime-project",
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
 					"file": "/C/Users/keerthi/Pictures/svgs/unitedKingdomTestMap.svg",
 					"settings":
 					{
@@ -1116,7 +1192,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "src/actions/linechartActions.js",
 					"settings":
 					{
@@ -1127,8 +1203,8 @@
 						"selection":
 						[
 							[
-								390,
-								390
+								331,
+								331
 							]
 						],
 						"settings":
@@ -1138,7 +1214,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1150,7 +1226,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"settings":
 					{
 						"buffer_size": 119128,
@@ -1177,7 +1253,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 22,
 					"file": "/C/Users/keerthi/Pictures/svgs/ukmap.css",
 					"settings":
 					{
@@ -1197,26 +1273,26 @@
 							"auto_name": "",
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 442.0,
+						"translation.x": 171.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 23,
 					"file": "src/style.css",
 					"settings":
 					{
-						"buffer_size": 2960,
+						"buffer_size": 3285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2190,
-								2190
+								627,
+								627
 							]
 						],
 						"settings":
@@ -1226,35 +1302,65 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3763.0,
+						"translation.y": 440.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 24,
 					"file": "src/charts/resource/mapSvg.jsx",
 					"settings":
 					{
-						"buffer_size": 112679,
+						"buffer_size": 105658,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								171,
+								171
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/keerthi/Pictures/svgs/ukmap.svg",
+					"settings":
+					{
+						"buffer_size": 106798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								106798
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1122.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1302,13 +1408,13 @@
 		"cols":
 		[
 			0.0,
-			0.850740900521,
+			0.787015410325,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.568667852237,
+			0.367476859573,
 			1.0
 		]
 	},

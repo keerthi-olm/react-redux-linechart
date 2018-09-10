@@ -52,7 +52,7 @@ class ToolTip extends React.Component{
                          fill="#6391da" opacity=".9" visibility={visibility}/>
                 <text  visibility={visibility} transform={transformText}>
                     <tspan  x="0" textAnchor="middle" fontSize="15px" fill="#ffffff">{this.props.toolTip.dataTip.key}</tspan>
-                    <tspan  x="0" textAnchor="middle" dy="25" fontSize="20px" fill="#a9f3ff">{this.props.toolTip.dataTip.value+" visits"}</tspan>
+                    <tspan  x="0" textAnchor="middle" dy="25" fontSize="20px" fill="#a9f3ff">{this.props.toolTip.dataTip.value+"millimeters"}</tspan>
                 </text>
             </g>
         );
@@ -163,7 +163,7 @@ export class LineChart extends React.Component {
             .tickSize(-w, 0, 0)
             .tickFormat("");
 
-
+        //  For refrerence- The diffrent types of line charts. 'cardinal' = curved lines
         // var interpolations = [
         //     "linear",
         //     "step-before",
@@ -201,7 +201,7 @@ export class LineChart extends React.Component {
 
                     </g>
 
-                </svg><p>{this.props.region}</p>
+                </svg><h3 class='col2'>2017 Rain fall for <span>{this.props.region}</span></h3>
             </div>
         );
     }

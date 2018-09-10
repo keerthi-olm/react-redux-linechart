@@ -8,13 +8,7 @@ body {
 
 
 #root {
-    overflow: hidden;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center; /*centers items on the line (the x-axis by default)*/
-  align-items: center; /*centers items on the cross-axis (y by default)*/
+width:100%;height: 100%;
 }
 
 .row {
@@ -199,13 +193,22 @@ fill-opacity: 0.6;
 
 .redoxLineChart {
 
-  background-color:black;
+  background-color:#000;
 }
 
-
-
+.redoxLineChart h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2.5vmax;
+    margin-top: 0vw;
+    z-index:0;
+    position: relative;
+}
+.redoxLineChart h3 span {color:orange}
 .redoxLineChart #england,.redoxLineChart #wales,.redoxLineChart #scotland,.redoxLineChart #ireland,.redoxLineChart #northernIreland{
   fill:orange;
   stroke:orange;
   stroke-width:0
 }
+
+#linechart-redux {z-index:2;position: relative;}
