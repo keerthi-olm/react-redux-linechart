@@ -5,7 +5,6 @@ import store from './store';
 // import ReactDOM from 'react-dom';
 import LineChart from './charts/LineChart'
 
-import './pure.css';
 import './style.css';
 
 class App extends Component {
