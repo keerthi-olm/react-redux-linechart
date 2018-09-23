@@ -1,6 +1,9 @@
 /*****  css in public folder   ****/
 
 
+#root-redux-linechart {
+    background-color: #000;
+}
 .row {
     margin: 0 -10px;
     display: -ms-inline-grid;
