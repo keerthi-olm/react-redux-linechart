@@ -187,7 +187,7 @@ export class LineChart extends React.Component {
             <div className='row redoxLineChart' > {mapSvg(this.mapCick)}
             <div className='col2'>
                    <svg   id={this.props.chartId}     viewBox="0 0 800 300"
-  preserveAspectRatio="xMidYMid meet">
+  preserveAspectRatio="xMinYMin meet">
 
                     <g transform={transform}>
 
