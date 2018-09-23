@@ -3,7 +3,7 @@ export const mapSvg = (mapClick)=><svg
    class='col1'
    version="1.1"
    viewBox="0 0 300 376.25967"
-  preserveAspectRatio="xMinYMin meet"
+  preserveAspectRatio="xMaxYMin meet"
    width="100%"
    view
    id="ukMap"><g
