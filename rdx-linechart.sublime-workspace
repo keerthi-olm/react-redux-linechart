@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background"
+			],
+			[
+				"col",
+				"col3"
+			],
+			[
+				"c",
+				"col2"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
 				"map",
 				"maplicked"
 			],
@@ -36,10 +52,6 @@
 				"display"
 			],
 			[
-				"ba",
-				"background-size"
-			],
-			[
 				"in",
 				"inline-block"
 			],
@@ -55,33 +67,16 @@
 			"file": "src/App.js",
 			"settings":
 			{
-				"buffer_size": 1919,
-				"line_ending": "Unix"
+				"buffer_size": 1898,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/charts/LineChart.jsx",
 			"settings":
 			{
-				"buffer_size": 8656,
+				"buffer_size": 8839,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/App.css",
-			"settings":
-			{
-				"buffer_size": 377,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Temp/wp-style.css",
-			"settings":
-			{
-				"buffer_size": 28083,
-				"line_ending": "Windows",
-				"name": "/*"
 			}
 		},
 		{
@@ -109,9 +104,26 @@
 			}
 		},
 		{
+			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1590,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/charts/basicInfoGraphics.jsx",
+			"settings":
+			{
+				"buffer_size": 15386,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/charts/resource/mapSvg.jsx",
+			"settings":
+			{
+				"buffer_size": 105658,
 				"line_ending": "Windows"
 			}
 		},
@@ -242,24 +254,16 @@
 			"file": "src/style.css",
 			"settings":
 			{
-				"buffer_size": 3285,
+				"buffer_size": 3627,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/charts/resource/mapSvg.jsx",
+			"file": "/C/dev-work/css-frameworks/pure/blog/styles/redox-linechart.css",
 			"settings":
 			{
-				"buffer_size": 105658,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/keerthi/Pictures/svgs/ukmap.svg",
-			"settings":
-			{
-				"buffer_size": 106798,
-				"line_ending": "Unix"
+				"buffer_size": 2538,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -269,6 +273,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"glue",
+				"Glue - Launch"
+			],
 			[
 				"Snippet: ",
 				"Snippet: reacthelplifecycle"
@@ -290,10 +298,6 @@
 				"View: Toggle Open Files in Side Bar"
 			],
 			[
-				"glue",
-				"Glue - Launch"
-			],
-			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -302,7 +306,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -319,10 +323,21 @@
 	},
 	"file_history":
 	[
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/build/manifest.json",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/build/index.html",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/package.json",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/node_modules/react-scripts/config/webpack.config.prod.js",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/App.css",
+		"/C/Temp/wp-style.css",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/public/manifest.json",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/App.test.js",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/build/css/redox-linechart.css",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/charts/resource/mapSvg.jsx",
+		"/C/Users/keerthi/Pictures/svgs/ukmap.svg",
+		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/terminal.glue",
 		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/charts/ChartTools.jsx",
 		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/rdx-linechart.sublime-project",
 		"/C/dev-work/euhost/wp/wp-cron.php",
-		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/src/App.css",
 		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/node_modules/d3/API.md",
 		"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/node_modules/d3/README.md",
 		"/C/Users/keerthi/AppData/Local/Temp/Temp1_vue-template.zip/package.json",
@@ -435,18 +450,7 @@
 		"/C/dev-work/webpack-d3/webpack.config.js",
 		"/C/wamp/www/d3-react/lib/charts/ProgressChart.jsx",
 		"/C/Temp/minimal-react-webpack-babel-setup-master/node_modules/webpack/bin/webpack.js",
-		"/C/Users/keerthi/Downloads/timeline/timeline/beds.js",
-		"/C/Users/keerthi/Downloads/timeline/timeline/timeline.js",
-		"/C/dev-work/mlife-timeline-schedular/timeline.js",
-		"/C/dev-work/mlife-timeline-schedular/css/themes.css",
-		"/C/dev-work/mlife-timeline-schedular/index.htm",
-		"/C/dev-work/mlife-timeline-schedular/css/styles.css",
-		"/C/wamp/www/bus-arrivals/index.html",
-		"/C/dev-work/timline-chronology/Framer/Project/index.html",
-		"/C/dev-work/timline-chronology/Framer/Project/app.js",
-		"/C/wamp/www/bus-arrivals/businfo.php",
-		"/F/adass-launchpad/adass-launchpad-kids.html",
-		"/C/Users/keerthi/Desktop/adass-launchpad/adass-launchpad-elderly.html"
+		"/C/Users/keerthi/Downloads/timeline/timeline/beds.js"
 	],
 	"find":
 	{
@@ -467,6 +471,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main",
+			"style",
+			"name",
+			"css",
+			"maps",
+			"visits",
+			"visi",
 			"%",
 			"%M",
 			"%m",
@@ -587,14 +598,7 @@
 			"d3Line",
 			"center",
 			"dom",
-			" scale",
-			" scale(",
-			"minAngle",
-			"pointerWidth",
-			"pointer",
-			"time",
-			"renderGauge",
-			"powerGauge"
+			" scale"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -635,7 +639,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -643,15 +647,15 @@
 					"file": "src/App.js",
 					"settings":
 					{
-						"buffer_size": 1919,
+						"buffer_size": 1898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								191,
+								191
 							]
 						],
 						"settings":
@@ -671,15 +675,15 @@
 					"file": "src/charts/LineChart.jsx",
 					"settings":
 					{
-						"buffer_size": 8656,
+						"buffer_size": 8839,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8472,
-								8472
+								5988,
+								5988
 							]
 						],
 						"settings":
@@ -689,69 +693,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5722.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/App.css",
-					"settings":
-					{
-						"buffer_size": 377,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								149,
-								145
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 87.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Temp/wp-style.css",
-					"settings":
-					{
-						"buffer_size": 28083,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2367,
-								2367
-							]
-						],
-						"settings":
-						{
-							"auto_name": "/*",
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5714.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "src/actions/types.js",
 					"settings":
 					{
@@ -777,7 +725,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "/C/dev-work/temp-crap/vue-template (1)/README.md",
 					"settings":
 					{
@@ -803,7 +751,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "src/index.js",
 					"settings":
 					{
@@ -814,8 +762,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								254,
+								254
 							]
 						],
 						"settings":
@@ -827,18 +775,13 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 8,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 7,
+					"buffer": 5,
+					"file": "public/index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1590,
 						"regions":
 						{
 						},
@@ -851,7 +794,37 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/charts/basicInfoGraphics.jsx",
+					"settings":
+					{
+						"buffer_size": 15386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5584,
+								5584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -859,6 +832,40 @@
 					},
 					"type": "text"
 				},
+				{
+					"buffer": 7,
+					"file": "src/charts/resource/mapSvg.jsx",
+					"settings":
+					{
+						"buffer_size": 105658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105658,
+								105658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 8,
 					"file": "src/store.js",
@@ -1061,8 +1068,8 @@
 						"selection":
 						[
 							[
-								3486,
-								3471
+								594,
+								594
 							]
 						],
 						"settings":
@@ -1072,7 +1079,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 374.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1080,7 +1087,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1121,8 +1128,8 @@
 						"selection":
 						[
 							[
-								617,
-								617
+								530,
+								530
 							]
 						],
 						"settings":
@@ -1149,8 +1156,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1,
+								1
 							]
 						],
 						"settings":
@@ -1273,7 +1280,7 @@
 							"auto_name": "",
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 171.0,
+						"translation.x": 88.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1284,15 +1291,15 @@
 					"file": "src/style.css",
 					"settings":
 					{
-						"buffer_size": 3285,
+						"buffer_size": 3627,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								627,
-								627
+								419,
+								419
 							]
 						],
 						"settings":
@@ -1302,65 +1309,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 440.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 24,
-					"file": "src/charts/resource/mapSvg.jsx",
+					"file": "/C/dev-work/css-frameworks/pure/blog/styles/redox-linechart.css",
 					"settings":
 					{
-						"buffer_size": 105658,
+						"buffer_size": 2538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								374,
+								374
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "/C/Users/keerthi/Pictures/svgs/ukmap.svg",
-					"settings":
-					{
-						"buffer_size": 106798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								106798
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1122.0,
+						"translation.y": 203.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1408,13 +1385,13 @@
 		"cols":
 		[
 			0.0,
-			0.787015410325,
+			0.433962264151,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.367476859573,
+			0.6986999375,
 			1.0
 		]
 	},
@@ -1439,7 +1416,7 @@
 		[
 			[
 				"",
-				"/C/dev-work/export-repos/react-redux-d3/rdx-linechart/rdx-linechart.sublime-project"
+				"/C/dev-work/aa-workspaces-sublime/infographics-latest-20-08-2018.sublime-project"
 			]
 		],
 		"width": 380.0
