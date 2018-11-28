@@ -11,7 +11,7 @@
     -ms-grid-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 5% 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 5% 1fr 1fr;
+       grid-template-rows: 25% 1fr 1fr;
        width:100%;
   
 
