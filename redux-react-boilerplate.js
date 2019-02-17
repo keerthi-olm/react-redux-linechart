@@ -170,3 +170,11 @@ const mapStateToProps = state => ({
 
 export default connect(mapStateToProps,{showtip,hidetip,getMapData})(LineChart);
 
+
+
+
+
+// notes on archetcting
+https://medium.freecodecamp.org/the-best-way-to-architect-your-redux-app-ad9bd16c8e2d
+
+//action --->look up reducre associted, set state
