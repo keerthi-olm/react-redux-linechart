@@ -88,7 +88,6 @@ export function hidetip(toolTip) {
     };
 
 }
-//     from linechart it is called like this --->this.props.getMapData(payload);
 export function getMapData(payload) {
 
     return {
@@ -137,9 +136,6 @@ export default store;
 
 //*******************************************************
 //susage in app
-import React, { Component } from 'react';
-import {Provider} from 'react-redux';
-import store from './store'; 
 
 class App extends Component {
   render() {
@@ -157,18 +153,15 @@ class App extends Component {
 
 in linechart component LineChart.jsx  
 
-
-
 export class LineChart extends React.Component {...    }
 
-
-
+add >>>>>>>
 
 
 import { showtip,hidetip,getMapData} from '../actions/linechartActions';
 
 
-....and at the bottom , to initialise state , 
+....and at the bottom , to initialise state , add >>>>>>>>>>>>
 
 const mapStateToProps = state => ({
  ...state.linechart,toolTip:state.toolTip
@@ -177,6 +170,8 @@ const mapStateToProps = state => ({
 
 export default connect(mapStateToProps,{showtip,hidetip,getMapData})(LineChart);
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -185,3 +180,4 @@ export default connect(mapStateToProps,{showtip,hidetip,getMapData})(LineChart);
 https://medium.freecodecamp.org/the-best-way-to-architect-your-redux-app-ad9bd16c8e2d
 
 //action --->look up reducre associted, set state
+>>>>>>> redux boiler plate
